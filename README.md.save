@@ -1,0 +1,7 @@
+GhostHunter
+===========
+
+Use your camera to find a ghost!  GhostHunter will scan your photo for a ghost and display the location of the ghost if one is found.  In reality there's a 50% chance for a blob to show up on your picture.
+
+Tested on a Nexus One (2.3.6), min API Level 7.
+

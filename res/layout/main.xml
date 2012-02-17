@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <Button android:id="@+id/gotoCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="getCamera"
+        android:text="@string/cameraButton" />
+
+    <TextView android:id="@+id/textViewSub2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@+id/gotoCamera"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/subTitle2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView android:id="@+id/textViewTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewSub2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/another_ghost" />
+
+</RelativeLayout>

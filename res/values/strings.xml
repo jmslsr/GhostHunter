@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GhostHunterActivity!</string>
+    <string name="app_name">GhostHunter</string>
+    <string name="cameraButton">Take a photo and scan for ghosts!</string>
+    <string name="browseButton">Browse photos</string>
+    <string name="textToImage">Text to place on the image</string>
+    <string name="putText">Do it!</string>
+    <string name="title">Is there a ghost in the room?</string>
+    <string name="subTitle1">There\'s only one way to find out!</string>
+    <string name="subTitle2">Take a picture to scan it for ghosts.  The presence of a ghost will be determined using proprietary Ghost Scanning (TM) technology and will be uncovered in your picture.</string>
+	<string name="noGo">No ghosts!  Horray!</string>
+	<string name="yesGo">The ghost has been identified in the image!</string>
+	<string name="tryAgain">Try again</string>
+	<string name="takeAnother">Find another ghost</string>
+</resources>

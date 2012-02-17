@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <TextView android:id="@+id/noGhostsFound"
+  		   android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:paddingBottom="10dip"
+           android:paddingTop="10dip"
+           android:text="@string/noGo"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+        <TextView android:id="@+id/yesGhostsFound"
+  	       android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:paddingBottom="10dip"
+           android:paddingTop="10dip"
+           android:text="@string/yesGo"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+       <ImageView android:id="@+id/thePicture"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:scaleType="fitCenter" />
+       
+       <ImageView android:id="@+id/theGhost"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@id/thePicture"
+           android:layout_alignRight="@id/thePicture"
+           android:layout_alignTop="@id/thePicture"
+           android:layout_alignBottom="@id/thePicture"
+           android:scaleType="fitXY" />
+       
+       <Button android:id="@+id/startOver"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:text="@string/tryAgain"
+           android:onClick="goBack"
+           android:scaleType="fitCenter" />
+       
+      <Button android:id="@+id/takeAnother"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:onClick="goBack"
+           android:text="@string/takeAnother" />
+
+</RelativeLayout>
